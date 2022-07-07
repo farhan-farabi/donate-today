@@ -1,14 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
-.banner{
-    background-image: url(../images/donation15.jpg);
+
+body {
+    font-family: 'Inter';
+}
+
+.full-container {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    background: url(../images/banner-bg.png), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
     padding: 175px 307px 175px 307px;
+}
+
+.banner h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    line-height: 79px;
+    padding-bottom: 20px;
+}
+
+.banner p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.banner a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    height: 55px;
+    width: 160px;
+    padding: 15px 15px 15px 15px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin-left: 320px;
 }
